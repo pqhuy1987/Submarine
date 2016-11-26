@@ -14,7 +14,7 @@ class UserAgrementScene: SKScene {
     override func didMoveToView(view: SKView) {
         let textFieldFrame = CGRectMake((self.view?.frame.midX)!, (self.view?.frame.midY)!, 600, 500)
         let uiTextField = UITextField(frame: textFieldFrame)
-        uiTextField.text = "By playing this game, user agreest thah creators (devsonmars) are not responsible for any healt, financial or hardware issues while playing this ( Submarine Fighter)"
+        uiTextField.text = "By playing this game, user agreest thah creators (devsonmars) are not responsible for any healt, financial or hardware issues while playing this ( Submarine Adventure)"
         uiTextField.font?.fontWithSize(50)
         //self.addChild(uiTextField)
     }
