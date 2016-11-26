@@ -143,16 +143,16 @@
 		2E3FFCAE1C0AFE9C0005F5B6 /* explosionRegularFX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosionRegularFX.mp3; sourceTree = "<group>"; };
 		2E4440E51C026AA200174373 /* Level3Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level3Scene.swift; sourceTree = "<group>"; };
 		2E4440E81C026EF400174373 /* Level4Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level4Scene.swift; sourceTree = "<group>"; };
-		2E550D351BCAFF0700F3CEFE /* SubmarineFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmarineFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E550D351BCAFF0700F3CEFE /* SubmarineAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmarineAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E550D381BCAFF0700F3CEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E550D3E1BCAFF0700F3CEFE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2E550D411BCAFF0700F3CEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E550D431BCAFF0700F3CEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E550D481BCAFF0700F3CEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E550D4D1BCAFF0700F3CEFE /* SubmarineFighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmarineFighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E550D4D1BCAFF0700F3CEFE /* SubmarineAdventure.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmarineAdventure.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E550D511BCAFF0700F3CEFE /* SubmarineFighterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmarineFighterTests.swift; sourceTree = "<group>"; };
 		2E550D531BCAFF0700F3CEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E550D581BCAFF0700F3CEFE /* SubmarineFighterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmarineFighterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E550D581BCAFF0700F3CEFE /* SubmarineAdventure.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmarineAdventure.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E550D5C1BCAFF0700F3CEFE /* SubmarineFighterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmarineFighterUITests.swift; sourceTree = "<group>"; };
 		2E550D5E1BCAFF0700F3CEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E550D6B1BCAFF4500F3CEFE /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
@@ -361,9 +361,9 @@
 		2E550D361BCAFF0700F3CEFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E550D351BCAFF0700F3CEFE /* SubmarineFighter.app */,
-				2E550D4D1BCAFF0700F3CEFE /* SubmarineFighterTests.xctest */,
-				2E550D581BCAFF0700F3CEFE /* SubmarineFighterUITests.xctest */,
+				2E550D351BCAFF0700F3CEFE /* SubmarineAdventure.app */,
+				2E550D4D1BCAFF0700F3CEFE /* SubmarineAdventure.xctest */,
+				2E550D581BCAFF0700F3CEFE /* SubmarineAdventure.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -542,9 +542,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E550D341BCAFF0700F3CEFE /* SubmarineFighter */ = {
+		2E550D341BCAFF0700F3CEFE /* SubmarineAdventure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E550D611BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighter" */;
+			buildConfigurationList = 2E550D611BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventure" */;
 			buildPhases = (
 				2E550D311BCAFF0700F3CEFE /* Sources */,
 				2E550D321BCAFF0700F3CEFE /* Frameworks */,
@@ -554,14 +554,14 @@
 			);
 			dependencies = (
 			);
-			name = SubmarineFighter;
+			name = SubmarineAdventure;
 			productName = SubmarineFighter;
-			productReference = 2E550D351BCAFF0700F3CEFE /* SubmarineFighter.app */;
+			productReference = 2E550D351BCAFF0700F3CEFE /* SubmarineAdventure.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E550D4C1BCAFF0700F3CEFE /* SubmarineFighterTests */ = {
+		2E550D4C1BCAFF0700F3CEFE /* SubmarineAdventureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E550D641BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighterTests" */;
+			buildConfigurationList = 2E550D641BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventureTests" */;
 			buildPhases = (
 				2E550D491BCAFF0700F3CEFE /* Sources */,
 				2E550D4A1BCAFF0700F3CEFE /* Frameworks */,
@@ -572,14 +572,14 @@
 			dependencies = (
 				2E550D4F1BCAFF0700F3CEFE /* PBXTargetDependency */,
 			);
-			name = SubmarineFighterTests;
+			name = SubmarineAdventureTests;
 			productName = SubmarineFighterTests;
-			productReference = 2E550D4D1BCAFF0700F3CEFE /* SubmarineFighterTests.xctest */;
+			productReference = 2E550D4D1BCAFF0700F3CEFE /* SubmarineAdventure.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E550D571BCAFF0700F3CEFE /* SubmarineFighterUITests */ = {
+		2E550D571BCAFF0700F3CEFE /* SubmarineAdventureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E550D671BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighterUITests" */;
+			buildConfigurationList = 2E550D671BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventureUITests" */;
 			buildPhases = (
 				2E550D541BCAFF0700F3CEFE /* Sources */,
 				2E550D551BCAFF0700F3CEFE /* Frameworks */,
@@ -590,9 +590,9 @@
 			dependencies = (
 				2E550D5A1BCAFF0700F3CEFE /* PBXTargetDependency */,
 			);
-			name = SubmarineFighterUITests;
+			name = SubmarineAdventureUITests;
 			productName = SubmarineFighterUITests;
-			productReference = 2E550D581BCAFF0700F3CEFE /* SubmarineFighterUITests.xctest */;
+			productReference = 2E550D581BCAFF0700F3CEFE /* SubmarineAdventure.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -606,6 +606,7 @@
 				TargetAttributes = {
 					2E550D341BCAFF0700F3CEFE = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = JQNK74493B;
 					};
 					2E550D4C1BCAFF0700F3CEFE = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -617,7 +618,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E550D301BCAFF0700F3CEFE /* Build configuration list for PBXProject "SubmarineFighter" */;
+			buildConfigurationList = 2E550D301BCAFF0700F3CEFE /* Build configuration list for PBXProject "SubmarineAdventure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -630,9 +631,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E550D341BCAFF0700F3CEFE /* SubmarineFighter */,
-				2E550D4C1BCAFF0700F3CEFE /* SubmarineFighterTests */,
-				2E550D571BCAFF0700F3CEFE /* SubmarineFighterUITests */,
+				2E550D341BCAFF0700F3CEFE /* SubmarineAdventure */,
+				2E550D4C1BCAFF0700F3CEFE /* SubmarineAdventureTests */,
+				2E550D571BCAFF0700F3CEFE /* SubmarineAdventureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -793,12 +794,12 @@
 /* Begin PBXTargetDependency section */
 		2E550D4F1BCAFF0700F3CEFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E550D341BCAFF0700F3CEFE /* SubmarineFighter */;
+			target = 2E550D341BCAFF0700F3CEFE /* SubmarineAdventure */;
 			targetProxy = 2E550D4E1BCAFF0700F3CEFE /* PBXContainerItemProxy */;
 		};
 		2E550D5A1BCAFF0700F3CEFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E550D341BCAFF0700F3CEFE /* SubmarineFighter */;
+			target = 2E550D341BCAFF0700F3CEFE /* SubmarineAdventure */;
 			targetProxy = 2E550D591BCAFF0700F3CEFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -900,10 +901,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SubmarineFighter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.submarinefight.100;
+				PRODUCT_NAME = SubmarineAdventure;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -912,10 +915,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SubmarineFighter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.submarinefight.100;
+				PRODUCT_NAME = SubmarineAdventure;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -928,8 +933,8 @@
 				INFOPLIST_FILE = SubmarineFighterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmarineFighter.app/SubmarineFighter";
+				PRODUCT_NAME = SubmarineAdventure;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmarineAdventure.app/SubmarineAdventure";
 			};
 			name = Debug;
 		};
@@ -940,8 +945,8 @@
 				INFOPLIST_FILE = SubmarineFighterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmarineFighter.app/SubmarineFighter";
+				PRODUCT_NAME = SubmarineAdventure;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmarineAdventure.app/SubmarineAdventure";
 			};
 			name = Release;
 		};
@@ -952,7 +957,7 @@
 				INFOPLIST_FILE = SubmarineFighterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SubmarineAdventure;
 				TEST_TARGET_NAME = SubmarineFighter;
 				USES_XCTRUNNER = YES;
 			};
@@ -964,7 +969,7 @@
 				INFOPLIST_FILE = SubmarineFighterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devsonmars.submarinefighter.SubmarineFighterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SubmarineAdventure;
 				TEST_TARGET_NAME = SubmarineFighter;
 				USES_XCTRUNNER = YES;
 			};
@@ -973,7 +978,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E550D301BCAFF0700F3CEFE /* Build configuration list for PBXProject "SubmarineFighter" */ = {
+		2E550D301BCAFF0700F3CEFE /* Build configuration list for PBXProject "SubmarineAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E550D5F1BCAFF0700F3CEFE /* Debug */,
@@ -982,7 +987,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E550D611BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighter" */ = {
+		2E550D611BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E550D621BCAFF0700F3CEFE /* Debug */,
@@ -991,7 +996,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E550D641BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighterTests" */ = {
+		2E550D641BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E550D651BCAFF0700F3CEFE /* Debug */,
@@ -1000,7 +1005,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E550D671BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineFighterUITests" */ = {
+		2E550D671BCAFF0700F3CEFE /* Build configuration list for PBXNativeTarget "SubmarineAdventureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E550D681BCAFF0700F3CEFE /* Debug */,

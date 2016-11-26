@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E550D341BCAFF0700F3CEFE"
-               BuildableName = "SubmarineFighter.app"
-               BlueprintName = "SubmarineFighter"
-               ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+               BuildableName = "SubmarineAdventure.app"
+               BlueprintName = "SubmarineAdventure"
+               ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E550D4C1BCAFF0700F3CEFE"
-               BuildableName = "SubmarineFighterTests.xctest"
-               BlueprintName = "SubmarineFighterTests"
-               ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+               BuildableName = "SubmarineAdventure.xctest"
+               BlueprintName = "SubmarineAdventureTests"
+               ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E550D571BCAFF0700F3CEFE"
-               BuildableName = "SubmarineFighterUITests.xctest"
-               BlueprintName = "SubmarineFighterUITests"
-               ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+               BuildableName = "SubmarineAdventure.xctest"
+               BlueprintName = "SubmarineAdventureUITests"
+               ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E550D341BCAFF0700F3CEFE"
-            BuildableName = "SubmarineFighter.app"
-            BlueprintName = "SubmarineFighter"
-            ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+            BuildableName = "SubmarineAdventure.app"
+            BlueprintName = "SubmarineAdventure"
+            ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E550D341BCAFF0700F3CEFE"
-            BuildableName = "SubmarineFighter.app"
-            BlueprintName = "SubmarineFighter"
-            ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+            BuildableName = "SubmarineAdventure.app"
+            BlueprintName = "SubmarineAdventure"
+            ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E550D341BCAFF0700F3CEFE"
-            BuildableName = "SubmarineFighter.app"
-            BlueprintName = "SubmarineFighter"
-            ReferencedContainer = "container:SubmarineFighter.xcodeproj">
+            BuildableName = "SubmarineAdventure.app"
+            BlueprintName = "SubmarineAdventure"
+            ReferencedContainer = "container:SubmarineAdventure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
