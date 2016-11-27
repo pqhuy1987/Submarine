@@ -63,7 +63,7 @@ class StartScene: SKScene {
             backgroundMusic.stop() // Stop bakground music.
             print("user agrement toučed:)")
             let scene = UserAgrementScene(fileNamed: "UserAgrementScene")
-            scene!.scaleMode = .AspectFill
+            scene!.scaleMode = .AspectFit
             let transition = SKTransition.crossFadeWithDuration(1)
             self.view?.presentScene(scene!, transition: transition)
         }
